@@ -1,8 +1,8 @@
-﻿namespace DevQuestions.Contracts;
+﻿namespace DevQuestions.Contracts.Questions;
 
 public record CreateQuestionDto(
     string Title,
-    string Body,
+    string Text,
     Guid UserId,
     Guid[] TagIds
 );
